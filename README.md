@@ -8,8 +8,11 @@
 ---
 
 ## 🔧 Contribution
-- ✅ Data Augmentation  
-- ✅ Model Testing
+| Your Name            | Contribution Description                                                  |
+|----------------------|---------------------------------------------------------------------------|
+| [Imran Khan]     | Completed the entire project individually — from data handling, model     |
+|                      | design, training with 5-fold cross-validation, to evaluation and analysis. |
+
 
 ---
 
@@ -39,8 +42,22 @@ Applied using `ImageDataGenerator` from TensorFlow. These techniques were used t
 | 4    | 84.1%    | 84.1%     | 84.1%  | 84.0%    |
 | 5    | 81.4%    | 82.4%     | 81.4%  | 81.2%    |
 
+🔁 Average Results Across All Folds:**
+
+- **Mean Accuracy**: **77.44%**  
+- **Mean Precision**: **79.24%**  
+- **Mean Recall**: **77.44%**  
+- **Mean F1 Score**: **77.02%**
+
 ---
 
-✅ **Note**: Model performance improved significantly across folds due to effective augmentation and consistent testing procedures.
+D)Final Project Execution Plan
+
+1. **Preprocessing**: Finalize dataset and verify augmentation.
+2. **Modeling**: Use a simple CNN initially, and apply **Transfer Learning with ResNet-50** on the full dataset using 5-fold cross-validation.
+3. **Evaluation**: Store fold-wise performance and average results.
+4. **Visualization**: Plot performance metrics, generate block diagram.
+5. **Documentation**: Prepare `README.md`, final results, and slides/report.
+6. **Submission**: Submit code, block diagram, and documentation on GitHub.
 
 
