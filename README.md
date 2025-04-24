@@ -16,6 +16,21 @@
 
 ---
 
+Input: 224x224x3 RGB Image
+
+→ ResNet50 (pre-trained on ImageNet, include_top=False, trainable=False)
+   └── Convolutional feature extractor (all convolutional layers frozen)
+
+→ GlobalAveragePooling2D
+   └── Reduces the feature map to a 1D vector by computing average over all locations
+
+→ Dense Layer (256 units, ReLU activation)
+   └── Learns high-level non-linear combinations of features
+
+→ Dense Layer (N units, Softmax activation)
+   └── Outputs probability distribution across N disease classes (N = number of folders in augmented dataset)
+
+
 ## 🧪 Data Augmentation Details
 
 Applied using `ImageDataGenerator` from TensorFlow. These techniques were used to increase dataset diversity and improve model generalization:
