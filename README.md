@@ -35,6 +35,10 @@
    - Number of units = Number of classes (auto from dataset)
    - Activation: Softmax (for multi-class classification)
 
+---
+
+![confusion_matrix](https://github.com/user-attachments/assets/f446ea6e-3aa1-4495-8e4a-0c47ff6165a7)
+
 
 ## 🧪 Data Augmentation Details
 
@@ -62,14 +66,13 @@ Applied using `ImageDataGenerator` from TensorFlow. These techniques were used t
 | 4    | 84.1%    | 84.1%     | 84.1%  | 84.0%    |
 | 5    | 81.4%    | 82.4%     | 81.4%  | 81.2%    |
 
-📊 Model Performance (5-Fold Cross Validation)
-
-Fold	Accuracy	Precision	Recall	F1 Score
-1	84.6%	86.5%	84.6%	84.5%
-2	87.5%	88.4%	87.5%	87.5%
-3	84.4%	85.2%	84.4%	84.4%
-4	90.8%	91.1%	90.8%	90.6%
-5	86.4%	86.5%	86.4%	86.4%
+Model Performance (5-Fold Cross Validation)  
+Fold	Accuracy	Precision	Recall	F1 Score  
+1	84.6%	86.5%	84.6%	84.5%  
+2	87.5%	88.4%	87.5%	87.5%  
+3	84.4%	85.2%	84.4%	84.4%  
+4	90.8%	91.1%	90.8%	90.6%  
+5	86.4%	86.5%	86.4%	86.4%  
 
 🔁 Average Results Across All Folds:**
 
