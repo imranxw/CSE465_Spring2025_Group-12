@@ -60,26 +60,11 @@ Applied using `ImageDataGenerator` from TensorFlow. These techniques were used t
 
 | Fold | Accuracy | Precision | Recall | F1 Score |
 |------|----------|-----------|--------|----------|
-| 1    | 66.8%    | 69.9%     | 66.8%  | 64.6%    |
-| 2    | 77.6%    | 82.2%     | 77.6%  | 78.1%    |
-| 3    | 77.3%    | 77.6%     | 77.3%  | 77.2%    |
-| 4    | 84.1%    | 84.1%     | 84.1%  | 84.0%    |
-| 5    | 81.4%    | 82.4%     | 81.4%  | 81.2%    |
-
-Model Performance (5-Fold Cross Validation)  
-Fold	Accuracy	Precision	Recall	F1 Score  
-1	84.6%	86.5%	84.6%	84.5%  
-2	87.5%	88.4%	87.5%	87.5%  
-3	84.4%	85.2%	84.4%	84.4%  
-4	90.8%	91.1%	90.8%	90.6%  
-5	86.4%	86.5%	86.4%	86.4%  
-
-🔁 Average Results Across All Folds:**
-
-- **Mean Accuracy**: **77.44%**  
-- **Mean Precision**: **79.24%**  
-- **Mean Recall**: **77.44%**  
-- **Mean F1 Score**: **77.02%**
+| 1    | 84.6%    | 86.5%     | 84.6%  | 84.5%    |
+| 2    | 87.5%    | 88.4%     | 87.5%  | 87.5%    |
+| 3    | 84.4%    | 85.2%     | 84.4%  | 84.4%    |
+| 4    | 90.8%    | 91.1%     | 90.8%  | 90.6%    |
+| 5    | 86.4%    | 86.5%     | 86.4%  | 86.4%    |
 
 ---
 
