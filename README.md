@@ -62,6 +62,15 @@ Applied using `ImageDataGenerator` from TensorFlow. These techniques were used t
 | 4    | 84.1%    | 84.1%     | 84.1%  | 84.0%    |
 | 5    | 81.4%    | 82.4%     | 81.4%  | 81.2%    |
 
+📊 Model Performance (5-Fold Cross Validation)
+
+Fold	Accuracy	Precision	Recall	F1 Score
+1	84.6%	86.5%	84.6%	84.5%
+2	87.5%	88.4%	87.5%	87.5%
+3	84.4%	85.2%	84.4%	84.4%
+4	90.8%	91.1%	90.8%	90.6%
+5	86.4%	86.5%	86.4%	86.4%
+
 🔁 Average Results Across All Folds:**
 
 - **Mean Accuracy**: **77.44%**  
